@@ -3,11 +3,13 @@
 "projects":
 [{
 "name":"Basic Sensors",
-"file":"basicsensors.json"
+"file":"basicsensors.json",
+"id":"1"
 },
 {
 "name":"Basic Actuators",
 "file":"basicactuators.json"
+"id":"2"
 }]
 },
 {
@@ -15,10 +17,12 @@
 "projects":
 [{
 "name":"Ultrasonic Radar",
-"file":"ultrasonicradar.json"
+"file":"ultrasonicradar.json",
+"id":"3"
 },
 {
 "name":"Distance detection",
-"file":"distancedetection.json"
+"file":"distancedetection.json",
+"id":"4"
 }]
 }]
