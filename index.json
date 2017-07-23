@@ -2,11 +2,11 @@
 "title":"Basic Projects",
 "projects":
 [{
-"title":"Basic Sensors",
+"name":"Basic Sensors",
 "file":"basicsensors.json"
 },
 {
-"title":"Basic Actuators",
+"name":"Basic Actuators",
 "file":"basicactuators.json"
 }]
 },
@@ -14,11 +14,11 @@
 "title":"Intermediate Projects",
 "projects":
 [{
-"title":"Ultrasonic Radar",
+"name":"Ultrasonic Radar",
 "file":"ultrasonicradar.json"
 },
 {
-"title":"Distance detection",
+"name":"Distance detection",
 "file":"distancedetection.json"
 }]
 }]
