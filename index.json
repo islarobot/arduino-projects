@@ -1,4 +1,7 @@
 [{
+"title":"Basic Projects",
+"projects":
+[{
 "title":"Basic Sensors",
 "file":"basicsensors.json"
 },
@@ -6,3 +9,16 @@
 "title":"Basic Actuators",
 "file":"basicactuators.json"
 }]
+},
+{
+"title":"Intermediate Projects",
+"projects":
+[{
+"title":"Ultrasonic Radar",
+"file":"ultrasonicradar.json"
+},
+{
+"title":"Distance detection",
+"file":"distancedetection.json"
+}]
+}
