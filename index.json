@@ -12,8 +12,8 @@
 "id":"1002"
 },
 {
-"name":"Basic Actuators",
-"file":"basicactuators.json",
+"name":"Distance Sensor",
+"file":"distancesensor.json",
 "id":"1003"
 }
 ]
