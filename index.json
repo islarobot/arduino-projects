@@ -12,8 +12,8 @@
 "id":"1002"
 },
 {
-"name":"Distance Sensor",
-"file":"distancesensor.json",
+"name":"Infrarred Remote",
+"file":"components/comms/IRremote/IRremote.json",
 "id":"1003"
 }
 ]
