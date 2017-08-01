@@ -1,7 +1,13 @@
 [{
 "title":"Basic Projects",
 "projects":
-[{
+[
+ {
+"name":"Test Project",
+"file":"testproject.json",
+"id":"1000"
+},
+ {
 "name":"Basic Sensors",
 "file":"basicsensors.json",
 "id":"1001"
