@@ -1,16 +1,28 @@
 [{
 "title":"Basic Projects",
 "projects":
-[{
+[
+ {
+"name":"Test Project",
+"file":"basic/testproject/testproject.json",
+"id":"1000"
+},
+ {
 "name":"Basic Sensors",
 "file":"basicsensors.json",
-"id":"1"
+"id":"1001"
 },
 {
 "name":"Basic Actuators",
-"file":"basicactuators.json"
-"id":"2"
-}]
+"file":"basicactuators.json",
+"id":"1002"
+},
+{
+"name":"Infrarred Remote",
+"file":"basic/components/comms/IRremote/IRremote.json",
+"id":"1003"
+}
+]
 },
 {
 "title":"Intermediate Projects",
@@ -18,11 +30,13 @@
 [{
 "name":"Ultrasonic Radar",
 "file":"ultrasonicradar.json",
-"id":"3"
+"id":"2001"
 },
 {
 "name":"Distance detection",
 "file":"distancedetection.json",
-"id":"4"
-}]
+"id":"2002"
+}
+ 
+]
 }]
