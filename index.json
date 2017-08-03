@@ -36,6 +36,11 @@
 "name":"Distance detection",
 "file":"distancedetection.json",
 "id":"2002"
+},
+{
+"name":"Children's book",
+"file":"childrensbook.json",
+"id":"2003"
 }
  
 ]
