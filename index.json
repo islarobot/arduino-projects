@@ -1,26 +1,53 @@
 [{
+"title":"Sensors",
+"projects":
+[
+ {
+"name":"Water Sensor",
+"file":"components/sensors/water.json",
+"id":"1001"
+},
+ {
+"name":"Sensor Luz/Linea Negra",
+"file":"components/sensors/LREF22.json",
+"id":"1002"
+}]
+},
+{
+"title":"Actuators",
+"projects":
+[
+ {
+"name":"l298n",
+"file":"components/actuators/l298n.json",
+"id":"1003"
+}
+]
+},
+ {
+"title":"Communications",
+"projects":
+[
+ {
+"name":"l298n",
+"file":"components/comms/IRremote.json",
+"id":"1004"
+}
+]
+},
+{
 "title":"Basic Projects",
 "projects":
 [
  {
-"name":"Test Project",
-"file":"basic/test_project/test_project.json",
-"id":"1000"
-},
- {
 "name":"Basic Sensors",
 "file":"basicsensors.json",
-"id":"1001"
+"id":"2001"
 },
 {
 "name":"Basic Actuators",
 "file":"basicactuators.json",
-"id":"1002"
-},
-{
-"name":"Infrarred Remote",
-"file":"basic/components/comms/IRremote/IRremote.json",
-"id":"1003"
+"id":"2002"
 }
 ]
 },
