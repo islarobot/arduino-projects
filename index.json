@@ -4,12 +4,12 @@
 [
  {
 "name":"Water Sensor",
-"file":"components/sensors/water.json",
+"file":"components/sensors/water/water.json",
 "id":"1001"
 },
  {
 "name":"Sensor Luz/Linea Negra",
-"file":"components/sensors/LREF22.json",
+"file":"components/sensors/LREF22/LREF22.json",
 "id":"1002"
 }]
 },
