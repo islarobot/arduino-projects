@@ -29,7 +29,7 @@
 "projects":
 [
  {
-"name":"l298n",
+"name":"IRremote",
 "file":"components/comms/IRremote/IRremote.json",
 "id":"1004"
 }
