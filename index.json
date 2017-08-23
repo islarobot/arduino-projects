@@ -19,7 +19,7 @@
 [
  {
 "name":"l298n",
-"file":"components/actuators/l298n.json",
+"file":"components/actuators/l298n/l298n.json",
 "id":"1003"
 }
 ]
@@ -30,7 +30,7 @@
 [
  {
 "name":"l298n",
-"file":"components/comms/IRremote.json",
+"file":"components/comms/IRremote/IRremote.json",
 "id":"1004"
 }
 ]
@@ -41,12 +41,12 @@
 [
  {
 "name":"Basic Sensors",
-"file":"basicsensors.json",
+"file":"basic/basicsensors/basicsensors.json",
 "id":"2001"
 },
 {
 "name":"Basic Actuators",
-"file":"basicactuators.json",
+"file":"basic/basicactuators/basicactuators.json",
 "id":"2002"
 }
 ]
@@ -56,18 +56,18 @@
 "projects":
 [{
 "name":"Ultrasonic Radar",
-"file":"ultrasonicradar.json",
-"id":"2001"
+"file":"intermediate/ultrasonicradar/ultrasonicradar.json",
+"id":"3001"
 },
 {
 "name":"Distance detection",
-"file":"distancedetection.json",
-"id":"2002"
+"file":"intermediate/distancedetection/distancedetection.json",
+"id":"3002"
 },
 {
 "name":"Children's book",
-"file":"childrensbook.json",
-"id":"2003"
+"file":"intermediate/childrensbook/childrensbook.json",
+"id":"3003"
 }
  
 ]
