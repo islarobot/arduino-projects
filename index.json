@@ -71,4 +71,19 @@
 }
  
 ]
-}]
+}
+,
+ 
+{
+"title":"Advanced Projects",
+"projects":
+[{
+"name":"Balancing Robot",
+"file":"advanced/balancingrobot/balancingrobot.json",
+"id":"4001"
+}
+ 
+]
+}
+
+]
