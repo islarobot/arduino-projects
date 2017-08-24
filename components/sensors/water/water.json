@@ -1,4 +1,26 @@
 {
   "code":"components/sensors/water/water.ino",
-  "tutorial":"components/sensors/water/tutorial_water.pdf"
+  "tutorial_old":"components/sensors/water/tutorial_water.pdf",
+  "tutorial": {
+  "introduction_text":"hola que tal",
+  "inventory":
+  [
+  {
+  "item_descr":"arduino Uno",
+  "item_chip_code":"N/A",
+  "item_code":"1",
+  "item_image":"link_to_image.jpg",
+  "item_qty":"1"
+  },
+  {
+  "item_descr":"Water sensor",
+  "item_chip_code":"L123",
+  "item_code":"2",
+  "item_image":"link_to_image1.jpg",
+  "item_qty":"1"
+  }
+  ],
+  "description_text1":"adios muy buenas",
+  "image_circuit":"hola.jpg"
+  }
 }
