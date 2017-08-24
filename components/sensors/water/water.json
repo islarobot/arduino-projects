@@ -1,6 +1,6 @@
 {
   "code":"components/sensors/water/water.ino",
-  "tutorial_old":"components/sensors/water/tutorial_water.pdf",
+  "tutorial_pdf":"components/sensors/water/tutorial_water.pdf",
   "tutorial": {
   "introduction_text":"hola que tal",
   "inventory":
@@ -21,6 +21,9 @@
   }
   ],
   "description_text1":"adios muy buenas",
-  "image_circuit":"hola.jpg"
+  "image_circuit":"hola.jpg",
+  "image_other1":"hola.jpg",
+  "description_text2":"adios muy buenas",
+  "description_text3":"adios muy buenas"
   }
 }
