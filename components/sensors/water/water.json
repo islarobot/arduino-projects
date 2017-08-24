@@ -1,7 +1,8 @@
 {
   "code":"components/sensors/water/water.ino",
+  "tutorial_type":"html",
   "tutorial_pdf":"components/sensors/water/tutorial_water.pdf",
-  "tutorial": {
+  "tutorial_html": {
   "introduction_text":"hola que tal",
   "inventory":
   [
