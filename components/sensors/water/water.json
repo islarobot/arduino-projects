@@ -1,4 +1,5 @@
 {
+  "project_title":"Water Sensor",
   "code":"components/sensors/water/water.ino",
   "tutorial_type":"html",
   "tutorial_pdf":"components/sensors/water/tutorial_water.pdf",
