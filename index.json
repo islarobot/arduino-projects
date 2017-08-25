@@ -21,6 +21,11 @@
 "name":"l298n",
 "file":"components/actuators/l298n/l298n.json",
 "id":"1003"
+},
+ {
+"name":"Touch Sensor",
+"file":"components/sensors/touch/touch.json",
+"id":"1004"
 }
 ]
 },
