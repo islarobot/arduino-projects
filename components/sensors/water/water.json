@@ -1,6 +1,9 @@
 {
   "project_title":"Water Sensor",
   "code":"components/sensors/water/water.ino",
+  "interaction_page1":"basicsensors.html",
+  "interaction_page2":"basicactuators.html",
+  "interaction_page3":"",
   "tutorial_type":"html",
   "tutorial_pdf":"components/sensors/water/tutorial_water.pdf",
   "tutorial_html": {
