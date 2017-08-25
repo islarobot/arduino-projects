@@ -28,6 +28,7 @@
   "image_circuit":"hola.jpg",
   "image_other1":"hola.jpg",
   "code_text_prev":"code_text_prev",
-  "code_text_post":"code_text_post"
+  "code_text_post":"code_text_post",
+  "conclusion_text":"conclusion_text"
   }
 }
