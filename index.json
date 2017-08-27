@@ -11,7 +11,14 @@
 "name":"Sensor Luz/Linea Negra",
 "file":"components/sensors/LREF22/LREF22.json",
 "id":"1002"
-}]
+},
+ {
+"name":"Touch Sensor",
+"file":"components/sensors/touch/touch.json",
+"id":"1003"
+}
+
+]
 },
 {
 "title":"Actuators",
@@ -20,11 +27,6 @@
  {
 "name":"l298n",
 "file":"components/actuators/l298n/l298n.json",
-"id":"1003"
-},
- {
-"name":"Touch Sensor",
-"file":"components/sensors/touch/touch.json",
 "id":"1004"
 }
 ]
