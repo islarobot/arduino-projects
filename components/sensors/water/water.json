@@ -2,6 +2,7 @@
   "project_title":"Water Sensor",
   "code":"components/sensors/water/water.ino",
   "interaction_pages":[{"label":"Basic Sensors","url":"basicsensors.html"}],
+  "Parameters":[{"code":"A","minval":"0","maxval","0"}],
   "tutorial_type":"html",
   "tutorial_pdf":"components/sensors/water/tutorial_water.pdf",
   "tutorial_html": {
