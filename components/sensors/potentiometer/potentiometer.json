@@ -22,7 +22,7 @@
 "tutorial_type": "html",
 "tutorial_pdf": "components/sensors/potentiometer/tutorial_potentiometer.pdf",
 "tutorial_html": {
-"introduction_text": "hola que tal",
+"introduction_text": "Potentiometer",
 "inventory": [
 {
 "item_descr": "arduino Uno",
