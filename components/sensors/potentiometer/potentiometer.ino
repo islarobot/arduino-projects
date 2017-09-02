@@ -1,3 +1,5 @@
+//potentiometer
+
 int analogPin = 5; / / level sensor connected to an analog port
 int led = 13; / / Piranha LED connected to digital port 12
 int val = 0; / / define a variable val initial value of 0
