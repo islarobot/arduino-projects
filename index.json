@@ -27,7 +27,7 @@
 "file":"components/sensors/touch/touch.json",
 "id":"1003"
 }, {
-"name":"Water Sensor",
+"name":"Potentiometer",
 "file":"components/sensors/potentiometer/potentiometer.json",
 "id":"1004"
 }
