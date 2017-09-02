@@ -41,7 +41,7 @@
  {
 "name":"l298n",
 "file":"components/actuators/l298n/l298n.json",
-"id":"1004"
+"id":"1101"
 }
 ]
 },
@@ -52,7 +52,7 @@
  {
 "name":"IRremote",
 "file":"components/comms/IRremote/IRremote.json",
-"id":"1005"
+"id":"1201"
 }
 ]
 },
