@@ -2,7 +2,7 @@
   "project_title":"Introduction",
   "code":"introduction.ino",
   "interaction_pages":[],
-  "tutorial_type":"html",
+  "tutorial_type":"both",
   "tutorial_pdf":"introduction.pdf",
   "tutorial_html": {
   "introduction_text":"hola que tal",
