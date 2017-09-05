@@ -43,7 +43,7 @@
 "projects":
 [
  {
-"name":"l298n",
+"name":"Motor Controller",
 "file":"components/actuators/l298n/l298n.json",
 "id":"1101"
 },
@@ -55,6 +55,11 @@
   {
 "name":"Wav",
 "file":"components/actuators/wav/wav.json",
+"id":"1103"
+},
+  {
+"name":"Servo Motor",
+"file":"components/actuators/servo/servo.json",
 "id":"1103"
 }
 ]
