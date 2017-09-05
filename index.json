@@ -83,6 +83,11 @@
 "name":"Basic Actuators",
 "file":"basic/basicactuators/basicactuators.json",
 "id":"2002"
+},
+{
+"name":"Distance detection",
+"file":"basic/distancedetection/distancedetection.json",
+"id":"2003"
 }
 ]
 },
@@ -95,8 +100,8 @@
 "id":"3001"
 },
 {
-"name":"Distance detection",
-"file":"intermediate/distancedetection/distancedetection.json",
+"name":"Robot - Black Line",
+"file":"intermediate/robotblackline/robotblackline.json",
 "id":"3002"
 },
 {
