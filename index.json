@@ -34,6 +34,10 @@
 "name":"Ultrasound Sensor",
 "file":"components/sensors/ultrasound/ultrasound.json",
 "id":"1005"
+}, {
+"name":"Push Button",
+"file":"components/sensors/pushbutton/pushbutton.json",
+"id":"1006"
 }
 
 ]
@@ -61,6 +65,11 @@
 "name":"Servo Motor",
 "file":"components/actuators/servo/servo.json",
 "id":"1103"
+},
+  {
+"name":"Relay Switch",
+"file":"components/actuators/relay/relay.json",
+"id":"1104"
 }
 ]
 },
@@ -112,6 +121,11 @@
 {
 "name":"Children's book",
 "file":"intermediate/childrensbook/childrensbook.json",
+"id":"3003"
+},
+{
+"name":"Basic Domotics",
+"file":"intermediate/basicdomotics/basicdomotics.json",
 "id":"3003"
 }
  
