@@ -3,7 +3,7 @@
   "code":"components/sensors/ultrasound/ultrasound.ino",
   "interaction_pages":[{"label":"Basic Sensors","url":"basicsensors.html"}],
   "parameters":[{"code":"A","minval":"0","maxval":"1024"}],
-  "tutorial_type":"html",
+  "tutorial_type":"pdf",
   "tutorial_pdf":"components/sensors/ultrasound/tutorial_ultrasound.pdf",
   "tutorial_html": {
   "introduction_text":"This is a small project to test how to use the HC-SR04 ultrasound sensor",
