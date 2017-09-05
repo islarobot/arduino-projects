@@ -19,7 +19,7 @@
 "maxval": "1024"
 }
 ],
-"tutorial_type": "html",
+"tutorial_type": "pdf",
 "tutorial_pdf": "components/sensors/potentiometer/tutorial_potentiometer.pdf",
 "tutorial_html": {
 "introduction_text": "Potentiometer",
