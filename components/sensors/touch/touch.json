@@ -2,7 +2,7 @@
   "project_title":"Touch Sensor",
   "code":"components/sensors/touch/touch.ino",
   "interaction_pages":[{"label":"Basic Sensors","url":"basicsensors.html"}"}],
-  "tutorial_type":"html",
+  "tutorial_type":"pdf",
   "tutorial_pdf":"components/sensors/touch/tutorial_touch.pdf",
   "tutorial_html": {
   "introduction_text":"hola que tal",
