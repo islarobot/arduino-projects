@@ -30,6 +30,10 @@
 "name":"Potentiometer",
 "file":"components/sensors/potentiometer/potentiometer.json",
 "id":"1004"
+}, {
+"name":"Ultrasound Sensor",
+"file":"components/sensors/ultrasound/ultrasound.json",
+"id":"1005"
 }
 
 ]
@@ -42,6 +46,16 @@
 "name":"l298n",
 "file":"components/actuators/l298n/l298n.json",
 "id":"1101"
+},
+  {
+"name":"Speaker",
+"file":"components/actuators/speaker/speaker.json",
+"id":"1102"
+},
+  {
+"name":"Wav",
+"file":"components/actuators/wav/wav.json",
+"id":"1103"
 }
 ]
 },
