@@ -1,1 +1,47 @@
 
+{
+"project_title": "Ultrasound Radar",
+"code": "intermediate/ultrasonic_radar/ultrasonic_radar.ino",
+"interaction_pages": [
+{
+"label": "Ultrasound Radar",
+"url": "project_sonar.html"
+}
+],
+"parameters": [
+{
+"code": "A",
+"minval": "0",
+"maxval": "1024"
+}
+],
+"tutorial_type": "html",
+"tutorial_pdf": "components/sensors/ultrasound/tutorial_ultrasound.pdf",
+"tutorial_html": {
+"introduction_text": "This is a project that uses an ultrasonic sensor and a servo to simulate a radar/sonar",
+"inventory": [
+{
+"item_descr": "arduino Uno",
+"item_chip_code": "N/A",
+"item_code": "1",
+"item_image": "link_to_image.jpg",
+"item_qty": "1"
+},
+{
+"item_descr": "Ultrasonic sensor",
+"item_chip_code": "HC-SR04",
+"item_code": "2",
+"item_image": "link_to_image1.jpg",
+"item_qty": "1"
+}
+],
+"comments_components": "comments_component",
+"layout_text_prev": "This is the basic layout. Both the sensor and the servo are connected to ditigal pins. The servo has to be plugged to a PWM pin",
+"layout_text_post": "",
+"image_circuit": "intermediate/ultrasonic_radar/ultrasonic.jpg",
+"image_other1": "hola.jpg",
+"code_text_prev": "code_text_prev",
+"code_text_post": "code_text_post",
+"conclusion_text": "conclusion_text"
+}
+}
