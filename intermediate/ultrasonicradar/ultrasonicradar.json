@@ -1,7 +1,7 @@
 
 {
 "project_title": "Ultrasound Radar",
-"code": "intermediate/ultrasonic_radar/ultrasonic_radar.ino",
+"code": "intermediate/ultrasonicradar/ultrasonicradar.ino",
 "interaction_pages": [
 {
 "label": "Ultrasound Radar",
