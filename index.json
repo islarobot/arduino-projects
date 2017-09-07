@@ -32,7 +32,7 @@
 "id":"1004"
 }, {
 "name":"Ultrasound Sensor",
-"file":"intermediate/ultrasonic_radar/ultrasonic_radar.json",
+"file":"intermediate/ultrasonicradar/ultrasonicradar.json",
 "id":"1005"
 }, {
 "name":"Push Button",
