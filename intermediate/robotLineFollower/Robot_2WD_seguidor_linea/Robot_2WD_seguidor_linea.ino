@@ -1,9 +1,3 @@
-#include <LEANTEC_ControlMotor.h>
-
-//Código desarrollado por LEANTEC ROBOTICS&ELECTRONICS
-//Esta permitido el uso de este código por cualquier usuario que lo necesite.
-//Esta prohibido el usode este código con ánimo de lucro.
-
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //                                                                                                                             //
 //                      CALIBRAR EL ROBOT DETRO DE LA LÍNEA NEGRA (ENCENDER DENTRO DE LA LÍNEA)                                //
@@ -15,10 +9,8 @@
 // Configuramos los pines que vamos a usar
 ControlMotor control(2,3,7,4,5,6); // MotorDer1,MotorDer2,MotorIzq1,MotorIzq2,PWM_Derecho,PWM_Izquierdo
 
-#define PIN_LDR1 2    // Define el pin analog de LDR 1
-#define PIN_LDR2 3    // Define el pin analog de LDR 2
-#define PIN_FL1  0    // Define el pin analog de IR  1 (Este sensor no se usa en este programa)
-#define PIN_FL2  1    // Define el pin analog de IR  2 (Este sensor no se usa en este programa)
+#define PIN_FL1  0    // Define el pin analog de IR  1 
+#define PIN_FL2  1    // Define el pin analog de IR  2 
 
 #define P_MUERTO   10   // Valor que tendrá que superar el cambio de luz para que gire el robot +/- P_MUERTO
 
@@ -29,8 +21,6 @@ ControlMotor control(2,3,7,4,5,6); // MotorDer1,MotorDer2,MotorIzq1,MotorIzq2,PW
 #define VELOCIDAD_BAJA        200  // Velocidad a la que se desplaza el robot cuando sale un sensor fuera de la línea
 #define VELOCIDAD_BAJA_GIRO   150  // Velocidad a la que gira el robot para localizar la línea cuando se ha salido los dos sensores
 
-int OFFSET_LDR1 = 0; // (Este sensor no se usa en este programa)
-int OFFSET_LDR2 = 0; // (Este sensor no se usa en este programa)
 int OFFSET_FL1  = 0; // Ajusto el punto central del sensor para que los dos estén iguales (en este caso, se ajusta solo al iniciar el robot
 int OFFSET_FL2  = 0; // Ajusto el punto central del sensor para que los dos estén iguales (en este caso, se ajusta solo al iniciar el robot
 
@@ -42,8 +32,6 @@ int valor_neutro=0;   // Este valor se entiende que es el valor en negro, por lo
 int velocidad=255;    // Velocidad a la que se desplaza el robot
 int direccion_anterior=0;  // Recuerda que sensor se salío de la línea para girar en el sentido correcto y localizar la línea de nuevo
 
-#define LDR1 0    // Define la posición en el ARRAY donde se guardará el valor de la LDR 1 (Este sensor no se usa en este programa)
-#define LDR2 1    // Define la posición en el ARRAY donde se guardará el valor de la LDR 2 (Este sensor no se usa en este programa)
 #define FL1  2    // Define la posición en el ARRAY donde se guardará el valor de la IR  1
 #define FL2  3    // Define la posición en el ARRAY donde se guardará el valor de la IR  2
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -104,13 +92,6 @@ void mostrar_valores(){
 //                                       Leemos los sensores y ajustamos los OFFSET
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 void leer_sensores(){
-  sensores[LDR1]=analogRead(PIN_LDR1)+OFFSET_LDR1;         // Leemos y guardamos el valor del sensor con el OFFSET incluido
-  if(sensores[LDR1]<0){sensores[LDR1] = 0;}                // Comprobamos que con el OFFSET no sea menor de 0
-  else if(sensores[LDR1] > 1023){sensores[LDR1] = 1023;}   // Comprobamos que con el OFFSET no sea mayor de 0
-  
-  sensores[LDR2]=analogRead(PIN_LDR2)+OFFSET_LDR2;         // Leemos y guardamos el valor del sensor con el OFFSET incluido 
-  if(sensores[LDR2]<0){sensores[LDR2] = 0;}                // Comprobamos que con el OFFSET no sea menor de 0
-  else if(sensores[LDR2] > 1023){sensores[LDR2] = 1023;}   // Comprobamos que con el OFFSET no sea mayor de 0
   
   sensores[FL1]=analogRead(PIN_FL1)+OFFSET_FL1;            // Leemos y guardamos el valor del sensor con el OFFSET incluido 
   if(sensores[FL1]<0){sensores[FL1] = 0;}                  // Comprobamos que con el OFFSET no sea menor de 0
