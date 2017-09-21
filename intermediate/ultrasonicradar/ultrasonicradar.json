@@ -12,7 +12,12 @@
 {
 "code": "A",
 "minval": "0",
-"maxval": "1024"
+"maxval": "180"
+},
+{
+"code": "B",
+"minval": "10",
+"maxval": "10"
 }
 ],
 "tutorial_type": "html",
